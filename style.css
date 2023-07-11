@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #f8edeb;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+input {
+    background-color: #fcd5ce;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.task {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    margin: 1rem;
+    background-color: #f9dcc4;
+    border-radius: 0.4rem;
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+}
+
+.task>h4,
+.task>p {
+    padding: 0 0.5rem;
+}
+
+.task>input {
+    margin: 0 0.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+form>* {
+    margin: 0.5rem 0;
+    padding: 0.3rem 0;
+}
